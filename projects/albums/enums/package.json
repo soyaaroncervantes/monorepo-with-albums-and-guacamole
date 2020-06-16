@@ -1,0 +1,17 @@
+{
+  "name": "@albums/enums",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9"
+  },
+  "private": true,
+  "scripts": {
+    "build": "ng build @albums/enums --prod",
+    "test":  "ng test @albums/enums",
+    "lint":  "ng lint @albums/enums"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}

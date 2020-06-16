@@ -9,6 +9,10 @@
 
 # dependencies
 /node_modules
+/projects/albums/components/node_modules
+/projects/albums/enums/node_modules
+/projects/albums/routes/node_modules
+/projects/albums/shared/node_modules
 
 # profiling files
 chrome-profiler-events*.json

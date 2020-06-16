@@ -1,0 +1,17 @@
+{
+  "extends": "../../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "monolithAlbums",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "monolith-albums",
+      "kebab-case"
+    ]
+  }
+}

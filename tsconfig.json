@@ -14,7 +14,29 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@albums/components": [
+        "dist/albums/components/albums-components",
+        "dist/albums/components"
+      ],
+      "@albums/routes": [
+        "dist/albums/routes/albums-routes",
+        "dist/albums/routes"
+      ],
+      "@albums/shared": [
+        "dist/albums/shared/albums-shared",
+        "dist/albums/shared"
+      ],
+      "@albums/enums": [
+        "dist/albums/enums/albums-enums",
+        "dist/albums/enums"
+      ],
+      "@shared/components": [
+        "dist/shared/components/shared-components",
+        "dist/shared/components"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

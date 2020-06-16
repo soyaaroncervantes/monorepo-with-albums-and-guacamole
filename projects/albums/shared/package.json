@@ -1,0 +1,21 @@
+{
+  "name": "@albums/shared",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9",
+    "bootstrap": "^4.5.0",
+    "holderjs": "^2.9.7",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "private": true,
+  "scripts": {
+    "build": "ng build @albums/shared --prod",
+    "test":  "ng test @albums/shared",
+    "lint":  "ng lint @albums/shared"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
