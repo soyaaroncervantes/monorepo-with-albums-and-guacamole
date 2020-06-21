@@ -10,7 +10,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "ng build @albums/routes --prod --watch",
+    "build": "ng build @albums/routes --prod",
     "test": "ng test @albums/routes",
     "lint": "ng lint @albums/routes"
   },

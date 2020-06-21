@@ -10,7 +10,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "ng build @shared/components --prod --watch",
+    "build": "ng build @shared/components --prod",
     "test": "ng test @shared/components",
     "lint": "ng lint @shared/components"
   },

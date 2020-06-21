@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { AlbumsRoutingModule } from './albums-routing.module';
 import { AlbumsComponent } from './albums.component';
-import { CardModule, TitleModule } from '@albums/shared';
+import { TitleModule } from '@albums/shared';
+import { CardModule } from '@shared/components';
 
 
 @NgModule({
