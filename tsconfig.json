@@ -35,6 +35,22 @@
       "@shared/components": [
         "dist/shared/components/shared-components",
         "dist/shared/components"
+      ],
+      "@shared/store": [
+        "dist/shared/store/shared-store",
+        "dist/shared/store"
+      ],
+      "@albums/store": [
+        "dist/albums/store/albums-store",
+        "dist/albums/store"
+      ],
+      "@albums/interfaces": [
+        "dist/albums/interfaces/albums-interfaces",
+        "dist/albums/interfaces"
+      ],
+      "@albums/actions": [
+        "dist/albums/actions/albums-actions",
+        "dist/albums/actions"
       ]
     }
   },
