@@ -14,7 +14,7 @@ import { AlbumsComponent } from './albums/albums.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AlbumsRoutesEnum } from '@albums/enums';
+import { AlbumsRoutesEnum, albumsRoutes } from '@albums/enums';
 
 const routes: Routes = [
 
   {
-    path: AlbumsRoutesEnum.home,
+    path: albumsRoutes.parent,
     loadChildren: () => import( '@albums/routes' ).then( m => m.HomeModule )
   },
 
   {
-    path: AlbumsRoutesEnum.albums,
+    path: albumsRoutes.children.albums,
     loadChildren: () => import( '@albums/routes' ).then( m => m.AlbumsModule )
   }
 
