@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AlbumsRoutesEnum } from '@albums/enums';
+import { AlbumsRoutesEnum, albumsRoutes } from '@albums/enums';
 
 @Component({
   selector: 'lib-albums-components-header',
@@ -9,10 +9,10 @@ import { AlbumsRoutesEnum } from '@albums/enums';
 export class HeaderComponent implements OnInit {
 
   albumsRoutes = AlbumsRoutesEnum;
+  albumsRoutesObject = albumsRoutes;
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }

@@ -1,0 +1,17 @@
+{
+  "name": "@albums/interfaces",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.1.11",
+    "@angular/core": "^9.1.11"
+  },
+  "private": true,
+  "scripts": {
+    "build": "ng build @albums/interfaces --prod",
+    "test":  "ng test @albums/interfaces",
+    "lint":  "ng lint @albums/interfaces"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
