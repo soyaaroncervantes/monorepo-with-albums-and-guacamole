@@ -22,6 +22,6 @@ La manera más fácil de hacerlo es utilizando los comandos de la tabla de abajo
 
 Proyectos | Comando | Puerto
 ------------ | ------------- | -------------
-Monolito Albums | npm run monolith:start | localhost:4202
-Módulos Albums | npm run modules:start | localhost:4201
-Monorepo Albums | npm run start | localhost:4200
+Monolito Albums | `npm run monolith:start` | localhost:4202
+Módulos Albums | `npm run modules:start` | localhost:4201
+Monorepo Albums | `npm run start` | localhost:4200
