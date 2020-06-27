@@ -1,27 +1,27 @@
-# ProjectsAlbums
+# Projects Albums
+Este repo es para mostrar las diferentes estructuras que puede haber al utilizar componentes, módulos o bibliotecas en una aplicación.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+Para este ejemplo se utilizará *Angular*, ya que el CLI es fácil de crear desde componentes hasta bibliotecas.
 
-## Development server
+> Cabe recalcar que no por utilizar Angular como herramienta de desarrollo, significa que no podamos aplicar la misma estructura para aplicaciones que utilicen una herramienta diferente.
+>
+>La finalidad de este proyecto es ver la eficiencia y eficaz de construir aplicaciones web con diferentes técnicas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<hr/>
 
-## Code scaffolding
+### Proyecto
+> Se necesitará tener instalado [Node](https://nodejs.org/en/download/package-manager/), para poder correr el proyecto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La manera más fácil de correr el proyecto es clonandolo por _https_ o _ssh_, después se debe acceder a la carpeta del proyecto e instalar las dependencias.
+```
+cd monorepo-with-albums-and-guacamole && yarn;
+```
 
-## Build
+### Correr proyectos
+La manera más fácil de hacerlo es utilizando los comandos de la tabla de abajo, por default se abrirá el proyecto en una nueva pestaña de su navegador predeterminado:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Proyectos | Comando | Puerto
+------------ | ------------- | -------------
+Monolito Albums | npm run monolith:start | localhost:4202
+Módulos Albums | npm run modules:start | localhost:4201
+Monorepo Albums | npm run start | localhost:4200
