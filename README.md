@@ -16,6 +16,10 @@ La manera más fácil de correr el proyecto es clonandolo por _https_ o _ssh_, d
 ```
 cd monorepo-with-albums-and-guacamole && yarn;
 ```
+ó
+```
+cd monorepo-with-albums-and-guacamole && npm install;
+```
 
 ### Correr proyectos
 La manera más fácil de hacerlo es utilizando los comandos de la tabla de abajo, por default se abrirá el proyecto en una nueva pestaña de su navegador predeterminado:
