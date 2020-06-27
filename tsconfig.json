@@ -51,6 +51,10 @@
       "@albums/actions": [
         "dist/albums/actions/albums-actions",
         "dist/albums/actions"
+      ],
+      "@albums/reducers": [
+        "dist/albums/reducers/albums-reducers",
+        "dist/albums/reducers"
       ]
     }
   },

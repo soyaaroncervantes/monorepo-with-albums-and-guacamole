@@ -744,6 +744,46 @@
           }
         }
       }
+    },
+    "@albums/reducers": {
+      "projectType": "library",
+      "root": "projects/albums/reducers",
+      "sourceRoot": "projects/albums/reducers/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/albums/reducers/tsconfig.lib.json",
+            "project": "projects/albums/reducers/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/albums/reducers/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/albums/reducers/src/test.ts",
+            "tsConfig": "projects/albums/reducers/tsconfig.spec.json",
+            "karmaConfig": "projects/albums/reducers/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/albums/reducers/tsconfig.lib.json",
+              "projects/albums/reducers/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   }
 }
